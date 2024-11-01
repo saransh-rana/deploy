@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ZEPHYR
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn main:app

@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%; /* Ensure the body and HTML elements cover the full viewport height */
+  margin: 0; /* Remove any default margin */
+  padding: 0; /* Remove any default padding */
+}
+
+body {
+  background-image: url("../static/background.png");
+  background-color: #9b82ff;
+  background-size: cover; /* Ensures the background covers the entire body */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  color: black;
+  margin-top: 0;
+  margin-left: 2px;
+  margin-right: 10px;
+}
+
+.myimg {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 25px;
+}
+
+.heading {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4d3e5c;
+  font-size: 50px;
+}
+.form-container {
+  background-color: #fff;
+  color: white;
+  box-shadow: 6px 6px #4d3e5c;
+  padding: 4rem;
+  border: 2.5px solid #4d3e5c;
+  width: 40% !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 200px;
+}
+h1 {
+  margin-bottom: 100px !important;
+}
+.submit-btn {
+  background-color: #ff4fae;
+  border-radius: 50px;
+  font-family: "Dela Gothic One", sans-serif;
+  transition: all 0.25s;
+}
+.submit-btn:hover {
+  background-color: #ff4fadb2;
+}
+.submit-form {
+  border: none;
+  outline: none;
+  width: 60%;
+  border-bottom: 2.5px solid #000;
+}
+.symptom-form {
+  margin: 20px 20px 65px 0;
+}
+.nav {
+  margin: 5px;
+  font-family: "Dela Gothic One", sans-serif;
+}
+.nav-el {
+  color: #4d3e5c !important;
+  transition: all 0.25s;
+}
+.nav
+
+.nav-instruct {
+  margin-left: 1050px;
+  box-shadow: 6px 6px #4d3e5c;
+  transition: all 0.25s;
+  border: 2.5px solid #4d3e5c;
+}
+.nav-instruct:hover {
+  background-color: #fff;
+  box-shadow: 6px 6px #4d3e5c;
+
+}
+.nav-el:hover {
+    color: #4d3e5c !important;
+}
+.btn-container {
+  background-color: #fff;
+  color: white;
+  box-shadow: 6px 6px #4d3e5c;
+  padding: 1rem;
+  border: 2.5px solid #4d3e5c;
+  width: 40% !important;
+  position: absolute;
+  left: 30%;
+  right: 50%;
+  bottom: 60px;
+  position: absolute;
+}
+.result-container {
+  right: -20px;
+  position: relative;
+}
+.toggle-button {
+  background-color: #fff !important;
+  border: 2.5px solid #4d3e5c;
+  font-size: small !important;
+  border-radius: 50px !important;
+  margin-bottom: 5px !important;
+  padding: 14px !important;
+  font-family: "Dela Gothic One", sans-serif;
+  transition: all 0.25s;
+}
+.toggle-button:hover {
+  background-color: #4fb5ff !important;
+}
+.custom-modal .modal-content {
+    background-color: #fff; /* Set background to white */
+    border-radius: 0; /* Remove border-radius from the entire modal */
+    font-family: 'Work Sans', sans-serif; /* Set font to Work Sans */
+    border: 2.5px solid #000; /* Add border to modal */
+  }
+  
+  .custom-modal .modal-header {
+    background-color: #020606; /* Keep the existing background color for the header */
+    color: white; /* Text color white */
+    
+    border-radius: 0; /* Remove border-radius from modal-header */
+  }
+  
+  .custom-modal .modal-body {
+    background-color: #fff; /* Ensure background color is white throughout */
+  }
+  
+  .custom-modal .modal-body p {
+    color: #000; 
+  }
+
+  .custom-modal .modal-header h5 {
+    font-family: 'Dela Gothic One'; /* Set the font to Dela Gothic One */
+    color: #4d3e5c; /* Keep the text color white or modify if needed */
+  }
+  

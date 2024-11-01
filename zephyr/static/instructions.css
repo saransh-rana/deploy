@@ -1,0 +1,77 @@
+body{
+    position: absolute;
+
+}
+
+.carousel-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.carousel-item li {
+  padding: 5px 0;
+}
+#carouselSymptoms {
+  width: 40%; /* Adjust the width as needed */
+  position: absolute; /* Use absolute positioning */
+  bottom:150px;
+  right: 40px; /* Move it to the right */
+  margin: 20px; /* Optional: add margin to space it from the edges */
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center; /* Center the content */
+  font-family: 'Work Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+  text-align: center; /* Center text within the list */
+  
+}
+.carousel-control-prev,
+.carousel-control-next {
+  color: #000; /* Change the arrow color */
+  
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent; /* Keep the background transparent */
+  border: solid #000; /* Add border color to the arrows */
+  border-width: 0 2px 2px 0; /* Set border widths */
+  box-shadow: 1px 1px #000;
+}
+
+.carousel-control-prev-icon {
+  transform: rotate(135deg); /* Rotate to point left */
+}
+
+.carousel-control-next-icon {
+  transform: rotate(-45deg); /* Rotate to point right */
+}
+.carousel-head{
+    position: relative;
+    left:850px;
+    bottom:370px;
+}
+
+.instruction-heading{
+    color: #4d3e5c; 
+    margin-bottom:25px; 
+    font-family:'Dela Gothic One';
+}
+.instruction-list{
+    background-color: #fff; 
+    padding: 20px; 
+    border: 1px solid #4d3e5c; 
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 6px 6px #4d3e5c;
+    border: 2.5px solid #4d3e5c;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
